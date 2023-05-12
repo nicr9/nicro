@@ -1,12 +1,8 @@
-[![GitHub release](https://img.shields.io/github/release/MunifTanjim/minimo.svg?style=for-the-badge)](https://github.com/MunifTanjim/minimo/releases/latest)
-[![GitHub Release Date](https://img.shields.io/github/release-date/MunifTanjim/minimo.svg?style=for-the-badge)](https://github.com/MunifTanjim/minimo/releases)
-[![license](https://img.shields.io/github/license/MunifTanjim/minimo.svg?style=for-the-badge)](https://github.com/MunifTanjim/minimo/blob/master/LICENSE)
+# Nicro
 
-![Minimo – Minimalist theme for Hugo](https://raw.githubusercontent.com/MunifTanjim/minimo/master/images/tn.png)
+A minimalist Hugo theme for blog.nicro.land.
 
-# Minimo
-
-Minimalist theme for Hugo.
+Based on MunifTanjim's Hugo theme; Minimo. By and large the original documentation is still relevant. Over time I plan on stripping features out to the specific subset I'm interested in and hopefully add integration for OpenTelemetry too.
 
 ## Documentation
 

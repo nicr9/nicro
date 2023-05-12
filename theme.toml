@@ -1,14 +1,13 @@
-name = "Minimo"
+name = "Nicro"
 license = "MIT"
-licenselink = "https://github.com/MunifTanjim/minimo/blob/master/LICENSE"
-description = "Minimalist theme for Hugo"
-homepage = "https://minimo.netlify.app"
+licenselink = "https://github.com/nicr9/nicro/blob/master/LICENSE"
+description = "A minimalist Hugo theme for blog.nicro.land"
+homepage = "https://blog.nicro.land"
 tags = [
   "blog",
   "minimal",
   "minimalist",
   "responsive",
-  "google-analytics"
 ]
 features = [
   "accessibility",
@@ -41,5 +40,5 @@ features = [
 ]
 
 [author]
-  name = "Munif Tanjim"
-  homepage = "https://muniftanjim.dev"
+  name = "Nic Roland"
+  homepage = "https://blog.nicro.land"
