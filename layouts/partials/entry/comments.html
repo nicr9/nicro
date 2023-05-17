@@ -13,9 +13,8 @@
 
 {{- $disqusEnabled := .Site.DisqusShortname -}}
 {{- $issoEnabled := $config.isso.enable -}}
-{{- $utterancesEnabled := $config.utterances.enable -}}
 
-{{- if ( $disqusEnabled | or $issoEnabled | or $utterancesEnabled ) -}}
+{{- if ( $disqusEnabled | or $issoEnabled ) -}}
 <section id='comments' class='comments'>
   <div class='container sep-before'>
     <div class='comments-area'>
@@ -23,8 +22,6 @@
       {{ partial "comments/disqus" . }}
     {{- else if $issoEnabled -}}
       {{ partial "comments/isso" . }}
-    {{- else if $utterancesEnabled -}}
-      {{ partial "comments/utterances" . }}
     {{- end -}}
     </div>
   </div>
