@@ -32,7 +32,6 @@ features = [
   "sidebar",
   "single-column",
   "social-menu",
-  "staticman",
   "syntax-highlighting",
   "table-of-contents",
   "utterances",
