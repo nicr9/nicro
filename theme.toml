@@ -16,11 +16,9 @@ features = [
   "breadcrumbs",
   "comments",
   "cover-image",
-  "disqus",
   "entry-navigation",
   "favicon",
   "fuse.js",
-  "isso",
   "lunr.js",
   "multilingual",
   "multi-author",
@@ -34,7 +32,6 @@ features = [
   "social-menu",
   "syntax-highlighting",
   "table-of-contents",
-  "utterances",
   "widgets"
 ]
 
