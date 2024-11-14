@@ -9,7 +9,7 @@ tags:
   - og
 slug: opengraph
 ---
-Minimo has built-in support for Opengraph tags. It will pick up most of the things from your contents' front-matters & Hugo configuration.
+Nicro has built-in support for Opengraph tags. It will pick up most of the things from your contents' front-matters & Hugo configuration.
 
 You can use these options in you content's front-matter:
 
@@ -28,6 +28,20 @@ videos: []  # for og:video tags
 _N.B.: the front-matter syntax shown here is `yaml`. If you use a different format (e.g. `toml`), the syntax will change accordingly._
 
 If you add [**Cover Image**]({{< relref "cover-image.md" >}}) to you content, it will also be picked up.
+
+## Mastodon Opengraph
+
+You can set these options in your `config.toml` files for better integration with Mastodon:
+
+```toml
+# for fediverse:creator tag
+[params.opengraph.mastodon]
+instance = example.com
+user = "me"
+```
+
+- `instance` [`String`]: Mastodon instance FQDN
+- `user` [`String`]: Mastodon user id
 
 ## Facebook Opengraph
 
@@ -48,7 +62,7 @@ Also, the `[social.facebook]` field from the [Author's Profile]( /docs/authors/#
 
 ## Twitter Cards
 
-Minimo has built-in support for [Twitter Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards).
+Nicro has built-in support for [Twitter Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards).
 
 You can set these options in your `config.toml` files to provide additional information for Twitter Cards:
 

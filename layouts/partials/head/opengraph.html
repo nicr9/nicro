@@ -111,4 +111,8 @@
   {{- end -}}
 {{- end -}}
 
+{{- with .Site.Params.opengraph.mastodon -}}
+  <meta property='fediverse:creator' content='@{{ .user }}@{{ .instance }}'>
+{{- end -}}
+
 {{- partial "head/opengraph/twitter" . -}}
